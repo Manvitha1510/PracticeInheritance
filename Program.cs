@@ -5,7 +5,11 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
+
             cat mycat= new cat();
+            Dog mydog = new Dog();
+            mydog.Eat();
+            mydog.Bark();
 
         }
     }
